@@ -1,0 +1,71 @@
+
+<html>
+<head>
+<script>
+function validate()
+{
+var name=document.getElementById("stud_name").value;
+if(name==" ")
+{
+document.getElementById("error_name")="Please enter the name";
+}
+var name=document.getElementById("stud_Father name").value;
+if(Father name==" ")
+{
+document.getElementById("error_Father name")="Please enter the Father name";
+var name=document.getElementById("stud_mail").value;
+if(email=="")
+{
+//window.alert("please Enter the email");
+}
+var name=document.getElementById("stud_Roll.No").value;
+if(Roll.No=="")
+{
+//window.alert("please Enter the Roll.No");
+}
+var name=document.getElementById("stud_Dale of Birth").value;
+if(Dale of Birth=="")
+{
+//window.alert("please Enter the Dale of Birth");
+}
+}
+</script>
+</head>
+<body>
+<form name="registration">
+<table border="1">
+<tr>
+<td colspan="2"><center><b>Student Registration</b></center></td>
+</tr>
+<tr>
+<td>Name</td>
+<td><input type="text"name="stud_name" id="stud_name"/>
+
+</td>
+</tr>
+<tr>
+<td>Father Name</td>
+<td><input type="text"name="stud_Father name" id="stud_Father name"/>
+
+</td>
+</tr>
+<tr>
+<td>E-Mail</td>
+<td><input type ="text"name="stud_email"/></td>
+</tr>
+<tr>
+<td>Roll.No</td>
+<td><input type ="text"name="stud_Roll.No"/></td>
+</tr>
+<tr>
+<td>Dale of Birth</td>
+<td><input type ="text"name="stud_Dale of Birth"/></td>
+</tr>
+<tr>
+<td colspan="2"><center><input type="button" value="register" onclick="validate()"/></center></td>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
